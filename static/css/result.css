@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+body{
+	  background: #5cdb95;
+}
+
+div {
+  border-width: 5px solid black; 
+  text-align: center; 
+  transform: translateY(5%);
+}
+
+h1 {
+	font-family: "Myriweather", sans-serif;
+	color: #05386b;
+}
+
+
+textarea {
+  border: 1px dashed #05386b;
+  padding: 10px;
+  margin-top: 15px;
+  width: 400px;
+  border-bottom: 2px solid #05386b;
+  background: none;
+  color: white;
+}
+
+textarea:focus {
+  outline: none;
+  color: white;	
+}
+
+
+	

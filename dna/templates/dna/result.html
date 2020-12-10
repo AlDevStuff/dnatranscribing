@@ -1,0 +1,24 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>DNA Transcriber</title>
+    <link rel="stylesheet" href="{% static 'css/result.css' %}">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+  </head>
+  <body>
+  <div class="container">
+    <form action="">
+      <h1>complementary strand</h1>
+      <textarea name="comp_strand" rows="6" cols="50">{{comp_strand}}</textarea>
+      <h1>messenger rna</h1>
+      <textarea name="mRNA" rows="6" cols="50">{{mRNA}}</textarea>
+      <h1>transfer rna</h1>
+      <textarea name="tRNA" rows="6" cols="50">{{tRNA}}</textarea>
+    </form>
+  </div>
+  </body>
+
+</html>

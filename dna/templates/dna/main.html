@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+  <head>
+    <title>DNA Transcriber</title>
+
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+  </head>
+  <body>
+    <!--      <h1>Enter DNA Sequence</h1>-->
+    <div class="sequence-content">
+     <h1>enter dna sequence</h1>
+        <form class="sequence-form" action="result">
+          <input type="text" class="textInput" name="sequence"required autocomplete="off">
+          <button>Submit</button>
+        </form>
+    <div>
+      <footer>made with <strong>❤️</strong></footer>
+  </body>
+</html>
