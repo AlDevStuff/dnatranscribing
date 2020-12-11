@@ -25,7 +25,7 @@ SECRET_KEY = 'o=#s@8#5n&th5^uwl5ptk0k3*9+g-ol#a42gybln(s)atxy6^i'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['dnatranscribing.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['dnatranscribing.herokuapp.com', '127.0.0.1', 'dnatranscriber.tk']
 
 
 # Application definition
